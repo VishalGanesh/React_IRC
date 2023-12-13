@@ -1,5 +1,4 @@
-import { Link } from 'react-router-dom'
-import '../Components/nav.css'
+import './nav.css'
 const Navbar=()=>
 {
 return (
@@ -7,12 +6,38 @@ return (
   <nav>
 
       <ul className="nav">
-        <li><Link to ="" >Home</Link></li>
-        <li><Link to ="" >About</Link></li>
-        <li><Link to ="" >Contacts</Link></li>
-        <li><Link to ="" >Login</Link></li>
+          <li>
+          <img src=""  className="logo"/>
+          </li>
+          <li>
+              <a href="#" className="same">
+                  HOME
+              </a>
+          </li>
+          <li>
+              <a href="#" className="same">
+                  CONTACT
+              </a>
+          </li>
+         
+          <li>
+              <a href="#" className="same">
+                  SIGN UP
+              </a>
+          </li>
+          <li>
+              <a href="#" className="same">
+                  LOGIN
+              </a>
+          </li>
+          <li>
+              <a href="#" className="same">
+                  ABOUT US
+              </a>
+          </li>
           </ul>
 </nav>
  )
 }
-export default Navbar
+
+export default Navbar;
