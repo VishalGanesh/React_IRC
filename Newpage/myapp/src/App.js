@@ -3,7 +3,7 @@ import React from 'react';
 import './Assets/Login_Signup.css'
 import Navbar from './Components/nav';
 import Login_SignUp from './Components/login_signup';
-
+import Home from './Components/Home';
 
 function App() {
   return (
