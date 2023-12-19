@@ -8,6 +8,7 @@
     background-image: url('./images/romain-huneau-fEgt5QRI-rA-unsplash.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    /* backdrop-filter: blur(15px); */
 }
 .header{
     display:flex;
@@ -80,7 +81,7 @@
     width: 220px;
     height: 60px;
     color: #fff;
-    background: #000000;
+    background: #243B55;
     border-radius: 30px;
     font-size: 18px;
     font-weight: 700;

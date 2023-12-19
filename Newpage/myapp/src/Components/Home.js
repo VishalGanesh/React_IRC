@@ -4,7 +4,7 @@ const Home =()=>{
     return(
         <>
         <form className="cont">
-            <img src="https://i.pinimg.com/originals/21/9b/47/219b4780653c8ed78bc25ed3cd14e6ee.jpg "/>
+            <img src="https://toycra.com/cdn/shop/files/Home_banner_1901x634.jpg?v=1695062888"/>
         </form>
         <form className='txt'>
         <h2>Shop by age</h2>
@@ -20,12 +20,12 @@ const Home =()=>{
         </form>
 
         <form className='txt2'>
-        <h2>Choose your favourte</h2>
+        <h2>Top and Most selling</h2>
         </form>
         <form className='fav'>
             <ul>
                 <li className='fav'><img src="https://www.funcorp.in/cdn/shop/files/Baby_Alive_090523_940x.jpg?v=1683629088"/></li>
-                <li className='fav'><img src="https://www.funcorp.in/cdn/shop/files/Beyblade_burst_quaddrive_090523_940x.jpg?v=1683629088"/></li>
+                {/* <li className='fav'><img src="https://www.funcorp.in/cdn/shop/files/Beyblade_burst_quaddrive_090523_940x.jpg?v=1683629088"/></li> */}
             </ul>
         </form>
         
