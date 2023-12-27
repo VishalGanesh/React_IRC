@@ -1,0 +1,85 @@
+.con{
+    margin-top: 1rem;
+    margin-left: .4rem;
+    margin-right: 0.4rem;
+    background-color: #e0d0c2;
+}
+.spo{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.par{
+	color: #e0d0c2; 
+}
+.label{
+    /* padding-left: 2px; */
+    width: 55rem;
+    height: 3rem;
+    margin-left: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    background: #F00000; 
+    background: -webkit-linear-gradient(to right, #DC281E, #F00000);  
+    background: linear-gradient(to right, #DC281E, #F00000); 
+}
+/* footbar */
+.foot{
+    background-color: #ce5104;
+}
+.ali{
+	display: flex;
+	flex-direction: row;
+    margin-top: -1rem;
+    margin-bottom: 3rem;
+}
+.foot1 h3{
+	margin-left: 1.5rem;
+    align-items: end;
+}
+.foot1 ul{
+	flex-direction: column;
+	/* padding-top: ; */
+}
+.foot1 li{
+	margin-left: 2rem;
+	margin-bottom: 1rem;
+	padding-top: 1rem;
+	text-decoration: none;
+	display: flex;
+	justify-content: start;
+	flex-direction: row;
+}
+.foot2 ul{
+	flex-direction: column;
+    margin-top: 1em;
+	/* padding-top: ; */
+}
+.foot2 li{
+	margin-left: -0.5rem;
+	/* font-weight: bold; */
+	margin-bottom: -4rem;
+	padding-top: 1rem;
+	padding: 1.3rem;
+	text-decoration: none;
+	display: flex;
+	justify-content: start;
+	flex-direction: row;
+    
+}
+.foot3 li{
+	margin-left: 2rem;
+	margin-bottom: = 0rem;
+	padding-top: 1rem;
+	padding: 1.3rem;
+	text-decoration: none;
+	display: flex;
+	justify-content: start;
+	flex-direction: row;
+    
+}
+.par{
+   align-items: end;
+}
