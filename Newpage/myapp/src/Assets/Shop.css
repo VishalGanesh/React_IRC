@@ -94,6 +94,7 @@
 	background-position: 0 0;
 	transition: transform calc(var(--d) * 1.5) var(--e);
 	pointer-events: none;
+	/* align-items: center; */
   }
   
   .card:after {
@@ -140,6 +141,17 @@
 	background-image: url(https://www.funcorp.in/cdn/shop/products/61alPSezATL._SL1500_1370x.jpg?v=1680179870);
   }
   
+  .card:nth-child(5):before {
+	background-image: url(https://tse3.mm.bing.net/th?id=OIP.C1uN885_6F3GYAG3Up6nEgHaE8&pid=Api&P=0&h=180);
+  }
+  
+  .card:nth-child(2):before {
+	background-image: url(https://www.funcorp.in/cdn/shop/products/fgd0000158_2_940x.jpg?v=1675937397);
+  }
+  
+  .card:nth-child(3):before {
+	background-image: url(https://www.funcorp.in/cdn/shop/products/61alPSezATL._SL1500_1370x.jpg?v=1680179870);
+  }
   .card:nth-child(4):before {
 	display: flex;
 	justify-content: center;
@@ -156,10 +168,12 @@
 	padding: 1rem;
 	transition: transform var(--d) var(--e);
 	z-index: 1;
+	/* align-items: center; */
   }
   
   .content > * + * {
 	margin-top: 1rem;
+	align-items: center;
   }
   
   .title {
@@ -186,10 +200,12 @@
 	color: white;
 	background-color: rgb(92, 92, 92);
 	border: none;
+	align-items: center;
   }
   
   .card_btn:hover {
 	background-color: #c2b9b9;
+	
   }
   
   .card_btn:focus {
@@ -243,6 +259,6 @@
 	.card:focus-within:after,
 	.card:focus-within .content,
 	.card:focus-within .content > *:not(.title) {
-	  transition-duration: 0s;
+	  transition-duration: 2s;
 	}
   }

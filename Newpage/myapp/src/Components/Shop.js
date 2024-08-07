@@ -57,7 +57,7 @@ const Shop=()=>{
         </div>
         <div class="card">
             <div class="content">
-                <h2 class="title">To The Beach</h2>
+                <h2 class="title">dsjdcisdc</h2>
                 <p class="copy">Plan your next beach trip with these fabulous destinations</p>
                 <button class="card_btn">View Price</button>
             </div>
